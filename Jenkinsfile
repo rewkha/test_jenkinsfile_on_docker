@@ -14,7 +14,7 @@ node {
   }
 
   stage ('Build') {
-    docker.build('andr_test')
+    docker.build('andr_test_github')
   }
 
 /*  stage 'Deploy'
