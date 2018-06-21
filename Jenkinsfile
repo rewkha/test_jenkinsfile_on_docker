@@ -9,11 +9,11 @@ node {
 
   }
 
-  stage 'Checkout' {
+  stage ('Checkout'){
     git url: 'https://gitlab.com/rewkha/andrewtest.git'
   }
 
-  stage 'Build' {
+  stage ('Build') {
     docker.build('andr_test')
   }
 
