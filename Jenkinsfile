@@ -10,7 +10,7 @@ node {
   }
 
   stage ('Checkout'){
-    git url: 'https://gitlab.com/rewkha/andrewtest.git'
+    git url: 'https://github.com/rewkha/test_jenkinsfile_on_docker'
   }
 
   stage ('Build') {
