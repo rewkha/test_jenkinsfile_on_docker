@@ -11,5 +11,5 @@ COPY . .
 
 RUN yarn install
 
-EXPOSE 8080
+EXPOSE 7070
 CMD yarn run serve
